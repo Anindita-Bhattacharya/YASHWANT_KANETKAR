@@ -1,0 +1,80 @@
+ #include<stdio.h>
+int main()
+{
+    /*to find out output of the following*/
+    int  a = 300, b, c ;
+    if ( a >= 400 )  
+    { 
+    b = 300 ; 
+    c = 200 ; 
+    
+    printf("\n%d %d", b,c );
+    }
+    
+    
+    int   d= 500, e, f ; 
+    if ( d >= 400 )
+    {
+        e = 300 ;   
+        f = 200 ;  
+        printf ( "\n%d %d", e, f ) ;
+        } 
+ 
+    
+    
+     int   x = 10, y = 20 ;
+     if ( x == y ) ; 
+     printf ( "\n%d %d", x, y ) ;  
+     
+      int   g = 3, h = 5 ;
+      if ( g == 3 )  
+      printf ( "\n%d", g ) ; 
+      else  
+      printf ( "\n%d", h ) ; 
+      
+      int   i = 3 ;  float   j = 3.0 ; 
+ 
+      if ( i == j )  
+      printf ( "\nx and y are equal" ) ; 
+      else  
+      printf ( "\nx and y are not equal" ) ; 
+      
+        int   k = 3, l, m ;
+        l = k = 10 ; 
+        m = k < 10 ;
+        printf ( "\nk = %d l = %d m = %d", k, l, m ) ; 
+        
+        
+        int  n = 35 ; 
+        printf ( "\n%d %d %d", n == 35, n = 50, n > 40 ) ; 
+        
+        int o = 65 ; 
+        char p = 'A' ; 
+        if ( o == p )   
+        printf ( "C is WOW" ) ;
+        else 
+        printf( "C is a headache");
+        
+        
+        int   q = 5, r, s ;
+        r = q = 15 ; 
+        s = q < 15 ; 
+        printf ( "\nq = %d r = %d s = %d", q, r, s ) ; 
+        
+        int  t = 15 ; 
+        printf ( "\n%d %d %d", t!= 15, t = 20, t < 30 ) ; 
+
+}
+OUTPUT:
+300 200
+10 20
+3
+x and y are equal
+k=10,l=10,m=0
+0 50 0C is WOW
+q=15,r=15,s=0
+1 20 1
+
+
+
+
